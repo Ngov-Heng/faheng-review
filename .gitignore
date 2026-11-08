@@ -1,0 +1,37 @@
+# See https://www.dartlang.org/guides/libraries/private-files
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# dart pub
+.dart_tool/
+.packages
+
+# dart_frog generated output
+build/
+.dart_frog/
+
+# Tests
+coverage/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+
+# Local database files (only if you use a local data folder)
+mongo-data/
